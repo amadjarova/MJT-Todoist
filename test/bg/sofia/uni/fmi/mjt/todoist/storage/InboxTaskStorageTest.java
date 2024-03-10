@@ -15,7 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class InboxTaskStorageTest {
     private static InboxTaskStorage inboxTaskStorage = new InboxTaskStorage();
     private InboxTaskStorage empty = new InboxTaskStorage();
-    private
 
     @BeforeAll
     static void setUpTestCase() throws TaskAlreadyExistException, TaskNotFoundException {
